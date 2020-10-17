@@ -10,16 +10,16 @@ import pl.sda.gitmerge.service.CarService;
 @RestController
 @RequestMapping("/car")
 @Slf4j
-public class CarRestController {
+public class CarController {
+     private final CarService carServis;
 
-    private final CarService carService;
 
-    public CarRestController(final CarService carService) {
-        this.carService = carService;
+    public CarController(CarService carService) {
+        this.carServis = carService;
     }
 
-    @GetMapping("/car-info")
-    public Car carInfo() {
-        return carService.getCar();
-    }
+@GetMapping("car-info")
+public Car carInfo(){
+        return carServis.getCar();
+}
 }
