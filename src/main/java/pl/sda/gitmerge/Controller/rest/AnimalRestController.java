@@ -1,4 +1,4 @@
-package pl.sda.gitmerge.controller;
+package pl.sda.gitmerge.Controller.rest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import lombok.extern.slf4j.Slf4j;
