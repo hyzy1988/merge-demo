@@ -14,6 +14,7 @@ public class PersonService {
                 .firstName("Jan")
                 .lastName("Kowalski")
                 .address("Ul. Krzywa 13")
+                .age(55)
                 .build();
 
     }
