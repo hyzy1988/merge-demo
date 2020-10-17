@@ -1,6 +1,5 @@
 package pl.sda.gitmerge.controller.rest;
 
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +11,7 @@ import pl.sda.gitmerge.service.PersonService;
 @RequestMapping("/person")
 @Slf4j
 public class PersonRestController {
+
     private final PersonService personService;
 
     public PersonRestController(final PersonService personService) {
@@ -20,7 +20,6 @@ public class PersonRestController {
 
     @GetMapping("/person-info")
     public Person personInfo() {
-        return personService.getPerson();}
+        return  personService.getPerson();
     }
-
-
+}
