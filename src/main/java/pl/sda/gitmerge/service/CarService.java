@@ -9,8 +9,12 @@ public class CarService {
 
     public Car getCar() {
         return Car.builder()
-            .colour("krwisty czerwony")
-            .engineCapacity(20_000)
-            .build();
+                .BodyType("sedan")
+                .color("blue")
+                .DMCINKg(1400)
+                .engineCapacity(2000)
+                .model("Honda")
+                .OutOfOrder(false)
+                .build();
     }
 }
