@@ -8,7 +8,9 @@ import lombok.Builder;
 @AllArgsConstructor
 @Builder
 public class Animal {
-
+    private String name;
+    private long age;
+    private AnimalType animalType;
     private String rasa;
     private String size;
     private String sex;
