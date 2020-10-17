@@ -12,8 +12,9 @@ import lombok.NoArgsConstructor;
 
 public class Person {
 
-    private String name;
-    private String surname;
+    private String firstName;
+    private String lastName;
     private String address;
     private int age;
+
 }

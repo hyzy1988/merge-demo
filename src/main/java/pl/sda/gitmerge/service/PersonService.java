@@ -10,9 +10,12 @@ public class PersonService {
 
     public Person getPerson() {
         return Person.builder()
-                .name("Tomek")
-                .surname("Kowalski")
+
+                .firstName("Jan")
+                .lastName("Kowalski")
                 .address("Ul. Krzywa 13")
+                .age(55)
                 .build();
+
     }
 }
