@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pl.sda.gitmerge.domain.Person;
-import pl.sda.gitmerge.Service.PersonService;
+import pl.sda.gitmerge.service.PersonService;
 
 @RestController
 @RequestMapping("/person")
