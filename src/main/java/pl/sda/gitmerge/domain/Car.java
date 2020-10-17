@@ -11,12 +11,10 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 @Builder
 @Slf4j
-
-
 public class Car {
     private String model;
     private String color;
-    private int engineCapacityInCC;
+    private int engineCapacity;
     private int DMCINKg;
     private String BodyType;
     private boolean OutOfOrder;
